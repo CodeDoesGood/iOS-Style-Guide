@@ -4,7 +4,7 @@ In order for our volunteers to be able to easily jump between projects and also 
 
 Some guidelines are required and some are optional -- labelled as "Project Specific" in each section. This style guide should be copied into the wiki for each new project. Lead Mentors may make changes to Project Specific guidelines either at their own discretion or through consensus with their team.
 
-\* Lead Mentors: Please add any additional style guidelines to the bottom section _"Miscellaneous Project Specific"_
+\* Lead Mentors: Please add any additional style guidelines to the bottom section _"Miscellaneous Project Specific"_ and please feel free to edit any of the guidelines labelled Project Specific. If you feel something is missing from the general guide or you'd like us to change one of the required guidelines let us know so we can all discuss and come to a consensus.
 
 ##Swift
 We are a Swift-first dev group. This means  
