@@ -30,12 +30,9 @@ If you are working on an API that will be consumed by other projects or turned i
 Emtpy lines are used to help with encapsulation and readability.
 
 - Last line of a file
-- First line of a function
 - Last line in each case statement in a switch if the cases are several lines
 - Last line of a closure if followed by another closure, if the closure contains several lines
 - First line in an if-else-guard-do-catch (etc) statement if the statement contains several lines
-- Both before and after an if-else-guard-do-catch (etc) statement
-- Both before and after a call to super
 
 \* There is no limit on what "several lines" means, use your judgement, but generally for readability it will mean 4 or more lines.
 
@@ -44,6 +41,9 @@ Additionally please set your Xcode to use spaces and not tabs, use 4 spaces. If 
 ####Project Specific
 - Two line breaks between classes, extensions, protocols, enums, etc
 - else, catch, and additional closures should be on a new line. They should not be on the same line as the closing brace from the previous statement.
+- Both before and after an if-else-guard-do-catch (etc) statement
+- Both before and after a call to super
+- First line of a function
 
 ##Less Is More
 - Use Swift type inference when possible rather than explicitly labelling the type.
@@ -123,3 +123,4 @@ if let array = array {
 - When calling a function with multiple parameters, each should be on their own line only if it improves readability
 - Use shadow naming when unwrapping optionals
 - Use for-in loops instead of forEach
+- Opening braces should be on the same line as the function
