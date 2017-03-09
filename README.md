@@ -23,6 +23,8 @@ IOS projects should be self documenting but sometimes documentation is required.
 
 In general though if you need to write documentation to explain what a function does that code is not written well. If you are not sure how to fix it talk to another person on your team or post the snippet in your platform channel on Slack for help. Usually it can be resolved by encapsulating parts of the function into smaller single purpose functions.
 
+Please do not leave code commented out without adding a `TODO://` statement which explains why it is commented out.
+
 ####Project Specific
 If you are working on an API that will be consumed by other projects or turned into a framework/library additional documentation will be required. Your Lead Mentor will adjust this style guide in that scenario with more information specific to your project.
 
