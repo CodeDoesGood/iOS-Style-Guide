@@ -21,14 +21,17 @@ IOS projects should be self documenting but sometimes documentation is required.
 
 - The code is a work around for a bug (please include the URL of where you found the work around if you found it online)
 - A large chunk of code has been copied from another project or article (please include the URL and other identifying information of where the work comes from as well as the License if it comes from a hosted repository / not an article or Stack Overflow post)
-- You are doing anything that may seem out of the ordinary
+- You are doing anything that may seem out of the ordinary / not a native or standard approach
 
 In general though if you need to write documentation to explain what a function does that code is not written well. If you are not sure how to fix it talk to another person on your team or post the snippet in your platform channel on Slack for help. Usually it can be resolved by encapsulating parts of the function into smaller single purpose functions.
 
 Please do not leave code commented out without adding a `TODO://` statement which explains why it is commented out.
 
 ####Project Specific
-If you are working on an API that will be consumed by other projects or turned into a framework/library additional documentation will be required. Your Lead Mentor will adjust this style guide in that scenario with more information specific to your project.
+- Functions should be grouped by type and labelled with a `// MARK:` statement. (Lead Mentors: If you prefer your MARK's in a specific order please include that here)
+- Extensions may be used for encapsulation, for example including delegate functions in their own extension. This should be consistent through the project and decided by the Lead Mentor or by consensus (please update your style guide to reflect this if it is decided). 
+
+\* If you are working on an API that will be consumed by other projects or turned into a framework/library additional documentation will be required. Your Lead Mentor will adjust this style guide in that scenario with more information specific to your project.
 
 ##Empty Lines and Line Breaks
 Emtpy lines are used to help with encapsulation and readability.
@@ -86,7 +89,7 @@ functionWithTwoClosures(one: { _ in
 ##Optionals
 - Force Unwrapping (using the bang ! operator to unwrap an optional), and Force Casting (using as!) is not allowed at all except in tests. 
 - Only IBOutlets may be Implicity Unwrapped (@IBOutlet weak var titleLabel: UILabel!). 
-- Watch when you use Xcode's "fix-it" option on compiler errors as it will often default to Force Unwrapping.
+\* Watch when you use Xcode's "fix-it" option on compiler errors as it will often default to Force Unwrapping.
 
 ###Guard-Lets & If-Lets
 When unwrapping an optinal use the option that makes the most sense. If you will use the variable throughout the function use a guard and exit if unwrapping fails.
