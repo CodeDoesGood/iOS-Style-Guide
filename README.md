@@ -4,13 +4,13 @@ In order for our volunteers to be able to easily jump between projects and also 
 
 There are additional things covered by Ray Wenderlich's [Swift Style Guide](https://github.com/raywenderlich/swift-style-guide) if you are interested in how to format your code. What is listed below however are the only things that we are asking all devs to do the same. We find large style guides difficult to follow and mostly unnecessary and so we have only included what we consider the most important for a readable codebase with consistent formatting.
 
-[Swift](#Swift)  
-[Documentation](#Documentation)  
-[Empty Lines and Line Breaks](#Empty-Lines-and-Line-Breaks)  
-[Less Is More](#Less-Is-More)   
-[Optionals](#Optionals)   
-[Switches and Enumerating](#Switches-and-Enumerating)   
-[Miscellaneous Project Specific](#Miscellaneous-Project-Specific)   
+[Swift](#swift)  
+[Documentation](#documentation)  
+[Empty Lines and Line Breaks](#empty-lines-and-line-breaks)  
+[Less Is More](#less-is-more)   
+[Optionals](#optionals)   
+[Switches and Enumerating](#switches-and-enumerating)   
+[Miscellaneous Project Specific](#miscellaneous-project-specific)   
 
 ##Lead Mentors
 (please delete this section when you copy the style guide into your project)  
