@@ -36,6 +36,8 @@ IOS projects should be self documenting but sometimes documentation is required.
 - The code is a work around for a bug (please include the URL of where you found the work around if you found it online)
 - A large chunk of code has been copied from another project or article (please include the URL and other identifying information of where the work comes from as well as the License if it comes from a hosted repository / not an article or Stack Overflow post)
 - You are doing anything that may seem out of the ordinary / not a native or standard approach
+
+###Organization
 - Functions should be grouped by type and labelled with a `// MARK:` statement. 
 - Parameters should be listed at the top of classes and structs, followed by initialization functions, and then lifecycle functions (each section should be grouped as stated in the above guideline).
 - Commented out code must include a // TODO: statement explaining why it is commented out
