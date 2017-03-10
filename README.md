@@ -6,11 +6,11 @@ There are additional things covered by Ray Wenderlich's [Swift Style Guide](http
 
 [Swift](#Swift)  
 [Documentation](#Documentation)  
-[Empty Lines and Line Breaks](#Empty-Lines-and-Line-Breaks)
-[Less Is More](#Less-Is-More)  
-[Optionals](#Optionals)
-[Switches and Enumerating](#Switches-and-Enumerating)
-[Miscellaneous Project Specific](#Miscellaneous-Project-Specific)
+[Empty Lines and Line Breaks](#Empty-Lines-and-Line-Breaks)  
+[Less Is More](#Less-Is-More)   
+[Optionals](#Optionals)   
+[Switches and Enumerating](#Switches-and-Enumerating)   
+[Miscellaneous Project Specific](#Miscellaneous-Project-Specific)   
 
 ##Lead Mentors
 (please delete this section when you copy the style guide into your project)  
