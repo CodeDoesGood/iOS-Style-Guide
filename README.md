@@ -47,7 +47,7 @@ In general though if you need to write documentation to explain what a function 
 Please do not leave code commented out without adding a `TODO://` statement which explains why it is commented out. If we find code commented without a TODO statement we will be contacting the dev who wrote it to ask why.
 
 ####Project Specific
-- Lead Mentors: If you prefer your MARK's in a specific order please include that here otherwise please delete the text in these brackets
+- Lead Mentors: If you prefer your MARK's in a specific order please include that here otherwise please delete this line.
 - Extensions may be used for encapsulation, for example including delegate functions in their own extension. This should be consistent through the project and decided by the Lead Mentor or by consensus (please update your style guide to reflect this if it is decided). 
 
 \* If you are working on an API that will be consumed by other projects or turned into a framework/library additional documentation will be required. Your Lead Mentor will adjust this style guide in that scenario with more information specific to your project. Lead Mentors please delete this line when creating your project style guide.
