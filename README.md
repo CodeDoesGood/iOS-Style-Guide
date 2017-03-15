@@ -46,7 +46,7 @@ In general, though, if you need to write documentation to explain what a functio
 
 Please do not leave code commented out without adding a `TODO://` statement which explains why it is commented out. If we find code commented without a TODO statement we will be contacting the dev who wrote it to ask why.
 
-#### Organization: Project-Specific
+#### Project-Specific Recommendations
 - Lead Mentors: If you prefer your MARK's in a specific order please include that here; otherwise, please delete this line.
 - Extensions may be used for encapsulation, for example including delegate functions in their own extension. This should be consistent through the project and decided by the Lead Mentor or by consensus (please update your style guide to reflect this if it is decided). 
 
@@ -58,7 +58,7 @@ Emtpy lines are used to help with encapsulation and readability.
 - Last line of a file
 - Please set your Xcode to use spaces and not tabs, use 4 spaces. If your Xcode is set this way you will be able to use the tab button to "tab" 4 spaces.
 
-#### Empty Lines & Line Breaks: Project Specific
+#### Project-Specific Recommendations
 - Two line breaks between classes, extensions, protocols, enums, etc
 - `else`, `catch`, and additional closures should be on a new line. They should not be on the same line as the closing brace from the previous statement.
 - First line in an `if-else-guard-do-catch` (etc) statement if the statement contains several lines
@@ -77,7 +77,7 @@ Emtpy lines are used to help with encapsulation and readability.
 - Use underscores if the parameter will not be used.
 
 ### Closures
-#### Closures: Project-Specific
+#### Project-Specific Recommendations
 _Preferred_ When there is only one closure use trailing closure syntax:
 
 ```
@@ -110,11 +110,11 @@ functionWithTwoClosures(one: { _ in
 - Only IBOutlets may be Implicity Unwrapped (`@IBOutlet weak var titleLabel: UILabel!`). 
 \* Watch when you use Xcode's "fix-it" option on compiler errors as it will often default to Force-Unwrapping.
 
-### Guard-Lets & If-Lets
-#### Project Specific
+### `Guard-Let`s & `If-Let`s
+#### Project-Specific Recommendations
 - _Preferred_ When unwrapping an optional use the option that makes the most sense. If you will use the variable throughout the function use a guard and exit if unwrapping fails.
 
-### Nil-Coalescing
+### Nil-Coalescing Operators
 - _Preferred_ Please use nil-coalescing when appropriate. Nil-coalescing is when you provide a default value when a variable is nil.   
 
 ```
