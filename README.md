@@ -150,5 +150,5 @@ if let array = array {
 ## Miscellaneous Project Specific
 - _Preferred_ When calling a function with multiple parameters, each should be on their own line only if it improves readability
 - Use shadow naming when unwrapping optionals
-- Use `for-in` loops instead of forEach
+- Use `for-in` loops instead of `forEach`
 - Opening braces should be on the same line as the function
