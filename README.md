@@ -125,20 +125,20 @@ The code above will return the count in the array if the array exist. If the arr
 
 ```
 guard let array = array else {
-      return 0
-   }
-   return array.count
+    return 0
+}
+return array.count 
 ```
    
 or
 
 ```
 if let array = array {
-      return array.count
-   }
-   else {
-      return 0
-   }
+    return array.count
+}
+else {
+    return 0
+}
 ```
    
 ## Switches and Enumerating
