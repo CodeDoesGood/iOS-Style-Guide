@@ -108,8 +108,7 @@ _Preferred_ When there is only one closure use trailing closure syntax:
 
 ```
 functionWithOneClosure() { _ in
-    // several lines of code
-    
+    // do stuff
 }
 ```
 
@@ -120,12 +119,13 @@ functionWithOneClosure(closure: { _ in
     // do stuff
 })
 ```
-   
+
 Multiple closures should look like:
 
 ```
 functionWithTwoClosures(one: { _ in
-    // do stuff
+    // several lines of code
+    
 },
 two: { _ in
     // do stuff
