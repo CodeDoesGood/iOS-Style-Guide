@@ -81,28 +81,28 @@ Emtpy lines are used to help with encapsulation and readability.
 _Preferred_ When there is only one closure use trailing closure syntax:
 
 ```
-functionWithOneClosure() { _ in 
-      // do stuff
-   }
+functionWithOneClosure() { _ in
+    // do stuff
+}
 ```
 
 Not
 
 ```
-functionWithOneClosure(closure: { _ in 
-      // do stuff
-   })
+functionWithOneClosure(closure: { _ in
+    // do stuff
+})
 ```
    
 Multiple closures should look like:
 
 ```
 functionWithTwoClosures(one: { _ in
-      // do stuff
-   },
-   two: { _ in
-      // do stuff
-   })
+    // do stuff
+},
+two: { _ in
+    // do stuff
+})
 ```
 
 ## Optionals
