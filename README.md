@@ -61,9 +61,35 @@ Emtpy lines are used to help with encapsulation and readability.
 #### Project-Specific Recommendations
 - Two line breaks between classes, extensions, protocols, enums, etc
 - `else`, `catch`, and additional closures should be on a new line. They should not be on the same line as the closing brace from the previous statement.
+```
+if let foo = bar {
+    // do stuff
+}
+else {
+    // do stuff
+}
+```
 - First line in an `if-else-guard-do-catch` (etc) statement if the statement contains several lines
 - Both before and after an if-else-guard-do-catch (etc) statement
+```
+// Some code
+
+if foo != nil {
+
+    // several lines of code
+}
+
+// More code
+```
 - Both before and after a call to `super`
+```
+override func viewDidLoad() {
+
+  super.viewDidLoad()
+
+  // other stuff
+}
+```
 - First line of a function
 - Last line in each case statement in a switch, if the cases are several lines
 - Last line of a closure if followed by another closure, if the closure contains several lines
@@ -81,28 +107,29 @@ Emtpy lines are used to help with encapsulation and readability.
 _Preferred_ When there is only one closure use trailing closure syntax:
 
 ```
-functionWithOneClosure() { _ in 
-      // do stuff
-   }
+functionWithOneClosure() { _ in
+    // do stuff
+}
 ```
 
 Not
 
 ```
-functionWithOneClosure(closure: { _ in 
-      // do stuff
-   })
+functionWithOneClosure(closure: { _ in
+    // do stuff
+})
 ```
-   
+
 Multiple closures should look like:
 
 ```
 functionWithTwoClosures(one: { _ in
-      // do stuff
-   },
-   two: { _ in
-      // do stuff
-   })
+    // several lines of code
+    
+},
+two: { _ in
+    // do stuff
+})
 ```
 
 ## Optionals
@@ -125,20 +152,20 @@ The code above will return the count in the array if the array exist. If the arr
 
 ```
 guard let array = array else {
-      return 0
-   }
-   return array.count
+    return 0
+}
+return array.count 
 ```
    
 or
 
 ```
 if let array = array {
-      return array.count
-   }
-   else {
-      return 0
-   }
+    return array.count
+}
+else {
+    return 0
+}
 ```
    
 ## Switches and Enumerating
