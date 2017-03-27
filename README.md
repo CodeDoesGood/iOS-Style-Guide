@@ -137,7 +137,7 @@ two: { _ in
 - Only IBOutlets may be Implicity Unwrapped (`@IBOutlet weak var titleLabel: UILabel!`). 
 \* Watch when you use Xcode's "fix-it" option on compiler errors as it will often default to Force-Unwrapping.
 
-### `Guard-Let`s & `If-Let`s
+### Guard-Let & If-Let
 #### Project-Specific Recommendations
 - _Preferred_ When unwrapping an optional use the option that makes the most sense. If you will use the variable throughout the function use a guard and exit if unwrapping fails.
 
