@@ -22,7 +22,7 @@ Some guidelines are required, some are preferred, and some are optional. Guideli
 \* With optional and preferred guidelines there is actually one requirement. The requirement is that you _must_ list a guideline for that item. No guidelines may be removed, but they can be edited. Note: You are more than welcome to add additional guidelines if there are things that are important to you which we have not included.
 
 ## Swift
-We are a Swift-first dev group. This means : 
+We are a Swift-first dev group. This means: 
 - Resort to Objective-C types only when required. 
 - Use Swift initializers, not the Objective-C `Type.init(...)` versions
 - Use protocol extensions to provide empty default implementations for functions, rather than marking a protocol @objc in order to have a protocol function be optional
@@ -133,7 +133,7 @@ two: { _ in
 ```
 
 ## Optionals
-- Force-Unwrapping (using the bang ! operator to unwrap an optional), and Force Casting (using `as!`) is not allowed _at all_ except in tests or when creating cells (simply to save you from writing unnecessary code). 
+- Force-Unwrapping (using the bang ! operator to unwrap an optional), and Force Casting (using `as!`) is not allowed _at all_ except in tests. The _Reusable_ pod is included in the sample project to make creating cells faster and not need to force unwrap. Leads are welcome to remove it and use a different method such as _CellRepresentable_ or your own solution.   
 - Only IBOutlets may be Implicity Unwrapped (`@IBOutlet weak var titleLabel: UILabel!`). 
 \* Watch when you use Xcode's "fix-it" option on compiler errors as it will often default to Force-Unwrapping.
 
