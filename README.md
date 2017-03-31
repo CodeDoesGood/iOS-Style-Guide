@@ -134,7 +134,7 @@ two: { _ in
 
 ## Optionals
 - Force-Unwrapping (using the bang ! operator to unwrap an optional), and Force Casting (using `as!`) is not allowed _at all_ except in tests. The _Reusable_ pod is included in the sample project to make creating cells faster and not need to force unwrap. Leads are welcome to remove it and use a different method such as _CellRepresentable_ or your own solution.   
-- Only IBOutlets may be Implicity Unwrapped (`@IBOutlet weak var titleLabel: UILabel!`). 
+- Only IBOutlets may be Implicity Unwrapped (`@IBOutlet weak var titleLabel: UILabel!`).   
 \* Watch when you use Xcode's "fix-it" option on compiler errors as it will often default to Force-Unwrapping.
 
 ### Guard-Let & If-Let
