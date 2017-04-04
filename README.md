@@ -61,7 +61,7 @@ Emtpy lines are used to help with encapsulation and readability.
 #### Project-Specific Recommendations
 - Two line breaks between classes, extensions, protocols, enums, etc
 - `else`, `catch`, and additional closures should be on a new line. They should not be on the same line as the closing brace from the previous statement.
-```
+```swift
 if let foo = bar {
     // do stuff
 }
@@ -71,7 +71,7 @@ else {
 ```
 - First line in an `if-else-guard-do-catch` (etc) statement if the statement contains several lines
 - Both before and after an if-else-guard-do-catch (etc) statement
-```
+```swift
 // Some code
 
 if foo != nil {
@@ -82,7 +82,7 @@ if foo != nil {
 // More code
 ```
 - Both before and after a call to `super`
-```
+```swift
 override func viewDidLoad() {
 
   super.viewDidLoad()
@@ -106,7 +106,7 @@ override func viewDidLoad() {
 #### Project-Specific Recommendations
 _Preferred_ When there is only one closure use trailing closure syntax:
 
-```
+```swift
 functionWithOneClosure() { _ in
     // do stuff
 }
@@ -114,7 +114,7 @@ functionWithOneClosure() { _ in
 
 Not
 
-```
+```swift
 functionWithOneClosure(closure: { _ in
     // do stuff
 })
@@ -122,7 +122,7 @@ functionWithOneClosure(closure: { _ in
 
 Multiple closures should look like:
 
-```
+```swift
 functionWithTwoClosures(one: { _ in
     // several lines of code
     
@@ -144,13 +144,13 @@ two: { _ in
 ### Nil-Coalescing Operators
 - _Preferred_ Please use nil-coalescing when appropriate. Nil-coalescing is when you provide a default value when a variable is nil.   
 
-```
+```swift
 return array?.count ?? 0
 ```
    
 The code above will return the count in the array if the array exist. If the array is nil 0 will be returned instead. This should be used instead of the longer forms
 
-```
+```swift
 guard let array = array else {
     return 0
 }
@@ -159,7 +159,7 @@ return array.count
    
 or
 
-```
+```swift
 if let array = array {
     return array.count
 }
