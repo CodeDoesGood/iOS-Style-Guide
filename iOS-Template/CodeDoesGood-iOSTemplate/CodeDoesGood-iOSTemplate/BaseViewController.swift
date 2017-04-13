@@ -12,10 +12,17 @@ class BaseViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
     }
 
+    func dismissKeyboardWhenTapped() {
+        let tap = UIGestureRecognizer(target: self, action: #selector(hideKeyboard))
+        tap.cancelsTouchesInView = false
+        view.addGestureRecognizer(tap)
+    }
     
-
+    @objc private func hideKeyboard() {
+        view.endEditing(true)
+    }
 }
