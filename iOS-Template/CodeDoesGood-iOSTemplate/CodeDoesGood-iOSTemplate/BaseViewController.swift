@@ -12,7 +12,7 @@ class BaseViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
     }
 
@@ -22,7 +22,7 @@ class BaseViewController: UIViewController {
         view.addGestureRecognizer(tap)
     }
     
-    func hideKeyboard() {
+    @objc private func hideKeyboard() {
         view.endEditing(true)
     }
 }
