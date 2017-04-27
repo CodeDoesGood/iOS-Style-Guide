@@ -12,14 +12,14 @@ import UIKit
 extension UIAlertController {
     func featureNotImplementedAlert() {
         let alert = UIAlertController(title: "This feature is not yet implemented", message: nil, preferredStyle: .alert)
-        let okayAction = UIAlertAction(title: "OK", style: .cancel, handler: nil)
+        let okayAction = UIAlertAction(title: Constants.Alerts().ok, style: .cancel, handler: nil)
         alert.addAction(okayAction)
         self.present(alert, animated: true, completion: nil)
     }
     
     func customUIAlert(title : String, message : String, buttonName: String?, action : @escaping ((UIAlertAction) -> Void?)) {
         let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
-        let cancelAction = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)
+        let cancelAction = UIAlertAction(title: Constants.Alerts().cancel, style: .cancel, handler: nil)
         alert.addAction(cancelAction)
         
         guard let buttonName = buttonName else { return }
