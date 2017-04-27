@@ -12,8 +12,7 @@ class BaseViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        // Do any additional setup after loading the view.
+
     }
 
     func dismissKeyboardWhenTapped() {
@@ -26,3 +25,4 @@ class BaseViewController: UIViewController {
         view.endEditing(true)
     }
 }
+
