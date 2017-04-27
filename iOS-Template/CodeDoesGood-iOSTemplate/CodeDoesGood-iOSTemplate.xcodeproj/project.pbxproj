@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		2D03CD0F63F9A46E33D039A8 /* Pods_CodeDoesGood_iOSTemplateTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4888DA3E286C740BDD9D8E2D /* Pods_CodeDoesGood_iOSTemplateTests.framework */; };
 		71E020D6CCF65438ECE2B843 /* Pods_CodeDoesGood_iOSTemplateUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8DC5C67ABD1A45A3E081B9F /* Pods_CodeDoesGood_iOSTemplateUITests.framework */; };
+		9C791DCB1EB23E2900E13488 /* LocalizedStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C791DCA1EB23E2900E13488 /* LocalizedStrings.swift */; };
+		9C791DCC1EB23E2900E13488 /* LocalizedStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C791DCA1EB23E2900E13488 /* LocalizedStrings.swift */; };
+		9C791DCD1EB23E2900E13488 /* LocalizedStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C791DCA1EB23E2900E13488 /* LocalizedStrings.swift */; };
+		9C791DD01EB2482C00E13488 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9C791DCE1EB2482C00E13488 /* Localizable.strings */; };
+		9C791DD11EB2482C00E13488 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9C791DCE1EB2482C00E13488 /* Localizable.strings */; };
+		9C791DD21EB2482C00E13488 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9C791DCE1EB2482C00E13488 /* Localizable.strings */; };
 		A77CA1B0A2A65EE5EF4517F1 /* Pods_CodeDoesGood_iOSTemplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C8FE1F6DDCCC4272D8EAB47 /* Pods_CodeDoesGood_iOSTemplate.framework */; };
 		C612A1E11E9F197100A7A4BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C612A1E01E9F197100A7A4BE /* AppDelegate.swift */; };
 		C612A1E31E9F197100A7A4BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C612A1E21E9F197100A7A4BE /* ViewController.swift */; };
@@ -18,7 +24,6 @@
 		C612A1F61E9F197100A7A4BE /* CodeDoesGood_iOSTemplateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C612A1F51E9F197100A7A4BE /* CodeDoesGood_iOSTemplateTests.swift */; };
 		C612A2011E9F197100A7A4BE /* CodeDoesGood_iOSTemplateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C612A2001E9F197100A7A4BE /* CodeDoesGood_iOSTemplateUITests.swift */; };
 		C612A20F1E9F19B000A7A4BE /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C612A20E1E9F19B000A7A4BE /* BaseViewController.swift */; };
-		C634A4C81EB184A600A1EB51 /* CodeDoesGoodTemplate+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = C634A4C71EB184A600A1EB51 /* CodeDoesGoodTemplate+String.swift */; };
 		C634A4CA1EB184EA00A1EB51 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C634A4C91EB184EA00A1EB51 /* Constants.swift */; };
 		C676B65F1EB18BD1009386E7 /* CodeDoesGoodiOS+UIAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = C676B65E1EB18BD1009386E7 /* CodeDoesGoodiOS+UIAlert.swift */; };
 /* End PBXBuildFile section */
@@ -46,6 +51,8 @@
 		4888DA3E286C740BDD9D8E2D /* Pods_CodeDoesGood_iOSTemplateTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CodeDoesGood_iOSTemplateTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C8FE1F6DDCCC4272D8EAB47 /* Pods_CodeDoesGood_iOSTemplate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CodeDoesGood_iOSTemplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		900C7E561B11E001E565834E /* Pods-CodeDoesGood-iOSTemplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeDoesGood-iOSTemplate.release.xcconfig"; path = "Pods/Target Support Files/Pods-CodeDoesGood-iOSTemplate/Pods-CodeDoesGood-iOSTemplate.release.xcconfig"; sourceTree = "<group>"; };
+		9C791DCA1EB23E2900E13488 /* LocalizedStrings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizedStrings.swift; sourceTree = "<group>"; };
+		9C791DCF1EB2482C00E13488 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 		A8DC5C67ABD1A45A3E081B9F /* Pods_CodeDoesGood_iOSTemplateUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CodeDoesGood_iOSTemplateUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3EF892D0C1C43ECB1FD9340 /* Pods-CodeDoesGood-iOSTemplateUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeDoesGood-iOSTemplateUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CodeDoesGood-iOSTemplateUITests/Pods-CodeDoesGood-iOSTemplateUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C612A1DD1E9F197100A7A4BE /* CodeDoesGood-iOSTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CodeDoesGood-iOSTemplate.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,7 +69,6 @@
 		C612A2001E9F197100A7A4BE /* CodeDoesGood_iOSTemplateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeDoesGood_iOSTemplateUITests.swift; sourceTree = "<group>"; };
 		C612A2021E9F197100A7A4BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C612A20E1E9F19B000A7A4BE /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
-		C634A4C71EB184A600A1EB51 /* CodeDoesGoodTemplate+String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CodeDoesGoodTemplate+String.swift"; sourceTree = "<group>"; };
 		C634A4C91EB184EA00A1EB51 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		C676B65E1EB18BD1009386E7 /* CodeDoesGoodiOS+UIAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CodeDoesGoodiOS+UIAlert.swift"; sourceTree = "<group>"; };
 		C6FF85D5185F260B0F79A904 /* Pods-CodeDoesGood-iOSTemplateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeDoesGood-iOSTemplateTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CodeDoesGood-iOSTemplateTests/Pods-CodeDoesGood-iOSTemplateTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -138,6 +144,7 @@
 				C612A1E41E9F197100A7A4BE /* Main.storyboard */,
 				C612A1E71E9F197100A7A4BE /* Assets.xcassets */,
 				C612A1E91E9F197100A7A4BE /* LaunchScreen.storyboard */,
+				9C791DCE1EB2482C00E13488 /* Localizable.strings */,
 				C612A1EC1E9F197100A7A4BE /* Info.plist */,
 			);
 			path = "CodeDoesGood-iOSTemplate";
@@ -164,7 +171,6 @@
 		C61A8A201EB18E6A0027801F /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				C634A4C71EB184A600A1EB51 /* CodeDoesGoodTemplate+String.swift */,
 				C676B65E1EB18BD1009386E7 /* CodeDoesGoodiOS+UIAlert.swift */,
 			);
 			name = Extensions;
@@ -176,6 +182,7 @@
 				C612A20E1E9F19B000A7A4BE /* BaseViewController.swift */,
 				C634A4C91EB184EA00A1EB51 /* Constants.swift */,
 				C61A8A201EB18E6A0027801F /* Extensions */,
+				9C791DCA1EB23E2900E13488 /* LocalizedStrings.swift */,
 			);
 			name = BaseTemplateFiles;
 			sourceTree = "<group>";
@@ -313,6 +320,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C612A1EB1E9F197100A7A4BE /* LaunchScreen.storyboard in Resources */,
+				9C791DD01EB2482C00E13488 /* Localizable.strings in Resources */,
 				C612A1E81E9F197100A7A4BE /* Assets.xcassets in Resources */,
 				C612A1E61E9F197100A7A4BE /* Main.storyboard in Resources */,
 			);
@@ -322,6 +330,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C791DD11EB2482C00E13488 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,6 +338,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C791DD21EB2482C00E13488 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -481,7 +491,7 @@
 				C612A1E31E9F197100A7A4BE /* ViewController.swift in Sources */,
 				C612A1E11E9F197100A7A4BE /* AppDelegate.swift in Sources */,
 				C612A20F1E9F19B000A7A4BE /* BaseViewController.swift in Sources */,
-				C634A4C81EB184A600A1EB51 /* CodeDoesGoodTemplate+String.swift in Sources */,
+				9C791DCB1EB23E2900E13488 /* LocalizedStrings.swift in Sources */,
 				C676B65F1EB18BD1009386E7 /* CodeDoesGoodiOS+UIAlert.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -490,6 +500,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C791DCC1EB23E2900E13488 /* LocalizedStrings.swift in Sources */,
 				C612A1F61E9F197100A7A4BE /* CodeDoesGood_iOSTemplateTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,6 +509,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C791DCD1EB23E2900E13488 /* LocalizedStrings.swift in Sources */,
 				C612A2011E9F197100A7A4BE /* CodeDoesGood_iOSTemplateUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -518,6 +530,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		9C791DCE1EB2482C00E13488 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C791DCF1EB2482C00E13488 /* Base */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		C612A1E41E9F197100A7A4BE /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

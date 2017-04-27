@@ -21,9 +21,9 @@ struct Constants {
     }
     
     struct Alerts {
-        var cancel = "Cancel"
-        var ok = "Okay"
-        var thanks = "Thank you!"
+        var cancel = LocalizedStrings.Alerts.cancel().capitalized
+        var ok = LocalizedStrings.Alerts.okay().capitalized
+        var thanks = LocalizedStrings.Alerts.thanks().capitalized
         var message : String?
         var feedback : String?
         
