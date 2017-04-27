@@ -18,8 +18,12 @@
 		C612A1F61E9F197100A7A4BE /* CodeDoesGood_iOSTemplateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C612A1F51E9F197100A7A4BE /* CodeDoesGood_iOSTemplateTests.swift */; };
 		C612A2011E9F197100A7A4BE /* CodeDoesGood_iOSTemplateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C612A2001E9F197100A7A4BE /* CodeDoesGood_iOSTemplateUITests.swift */; };
 		C612A20F1E9F19B000A7A4BE /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C612A20E1E9F19B000A7A4BE /* BaseViewController.swift */; };
+
 		C634A4C81EB184A600A1EB51 /* CodeDoesGoodTemplate+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = C634A4C71EB184A600A1EB51 /* CodeDoesGoodTemplate+String.swift */; };
 		C634A4CA1EB184EA00A1EB51 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C634A4C91EB184EA00A1EB51 /* Constants.swift */; };
+
+		C676B65F1EB18BD1009386E7 /* CodeDoesGoodiOS+UIAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = C676B65E1EB18BD1009386E7 /* CodeDoesGoodiOS+UIAlert.swift */; };
+
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,8 +65,12 @@
 		C612A2001E9F197100A7A4BE /* CodeDoesGood_iOSTemplateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeDoesGood_iOSTemplateUITests.swift; sourceTree = "<group>"; };
 		C612A2021E9F197100A7A4BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C612A20E1E9F19B000A7A4BE /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+
 		C634A4C71EB184A600A1EB51 /* CodeDoesGoodTemplate+String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CodeDoesGoodTemplate+String.swift"; sourceTree = "<group>"; };
 		C634A4C91EB184EA00A1EB51 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+
+		C676B65E1EB18BD1009386E7 /* CodeDoesGoodiOS+UIAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CodeDoesGoodiOS+UIAlert.swift"; sourceTree = "<group>"; };
+
 		C6FF85D5185F260B0F79A904 /* Pods-CodeDoesGood-iOSTemplateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeDoesGood-iOSTemplateTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CodeDoesGood-iOSTemplateTests/Pods-CodeDoesGood-iOSTemplateTests.debug.xcconfig"; sourceTree = "<group>"; };
 		FB87D7317A86FE822D7A4088 /* Pods-CodeDoesGood-iOSTemplateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeDoesGood-iOSTemplateTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CodeDoesGood-iOSTemplateTests/Pods-CodeDoesGood-iOSTemplateTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -139,6 +147,7 @@
 				C612A1E71E9F197100A7A4BE /* Assets.xcassets */,
 				C612A1E91E9F197100A7A4BE /* LaunchScreen.storyboard */,
 				C612A1EC1E9F197100A7A4BE /* Info.plist */,
+				C676B65E1EB18BD1009386E7 /* CodeDoesGoodiOS+UIAlert.swift */,
 			);
 			path = "CodeDoesGood-iOSTemplate";
 			sourceTree = "<group>";
@@ -462,7 +471,11 @@
 				C612A1E31E9F197100A7A4BE /* ViewController.swift in Sources */,
 				C612A1E11E9F197100A7A4BE /* AppDelegate.swift in Sources */,
 				C612A20F1E9F19B000A7A4BE /* BaseViewController.swift in Sources */,
+
 				C634A4C81EB184A600A1EB51 /* CodeDoesGoodTemplate+String.swift in Sources */,
+
+				C676B65F1EB18BD1009386E7 /* CodeDoesGoodiOS+UIAlert.swift in Sources */,
+
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
