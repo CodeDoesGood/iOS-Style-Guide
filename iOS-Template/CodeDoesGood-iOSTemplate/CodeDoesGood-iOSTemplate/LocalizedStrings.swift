@@ -6,6 +6,15 @@
 //  Copyright © 2017 Code Does Good. All rights reserved.
 //
 
+/**
+ Localized string with args example
+ 
+ static func greeting(with name: String) -> String {
+    let string =  NSLocalizedString("Hello %@", comment: "Hello { name }")
+    return String(format: string, name)
+ }
+*/
+
 import Foundation
 
 struct LocalizedStrings {
