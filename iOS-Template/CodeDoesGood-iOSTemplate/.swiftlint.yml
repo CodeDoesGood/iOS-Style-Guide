@@ -1,0 +1,28 @@
+opt_in_rules:
+- explicit_init
+- force_unwrapping
+excluded: 
+  - Pods
+  - Carthage
+custom_rules:
+  else_statement_position:
+    name: "Else statement position"
+    message: "`else` statement should be on a new line"
+    regex: '\}\h*else'
+  catch_statement_position:
+    name: "Catch statement position"
+    message: "`catch` statement should be on a new line"
+    regex: '\}\h*catch'
+  objc_constants:
+    name: "Objective-C constant"
+    included: '.*\.swift'
+    message: "Constants should not follow Objective-C naming convention like kALL_CAPS."
+    regex: 'let\h*k?([A-Z_])+(\h|:)'
+  super_call_position:
+    name: "Call to super position"
+    message: "Put a line break before and after the call to `super`."
+    regex: '\{\n(\t|\h)+super\.'
+  func_statement_linebreak:
+    name: "First line of a function"
+    message: "Put a line break after a function declaration."
+    regex: 'func\h\w+\(.*\)\h{\n[\t\h]+.*'
