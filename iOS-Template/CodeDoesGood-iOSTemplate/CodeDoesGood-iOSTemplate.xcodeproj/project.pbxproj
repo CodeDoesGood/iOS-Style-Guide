@@ -206,6 +206,7 @@
 				C612A1DB1E9F197100A7A4BE /* Resources */,
 				53BD0AF13BE1B80FFF21690A /* [CP] Embed Pods Frameworks */,
 				FEC92836479D3788CBE2178C /* [CP] Copy Pods Resources */,
+				BEB440AE1EBEAFC600AE4FDC /* Run SwiftLint */,
 			);
 			buildRules = (
 			);
@@ -424,6 +425,20 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CodeDoesGood-iOSTemplateUITests/Pods-CodeDoesGood-iOSTemplateUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		BEB440AE1EBEAFC600AE4FDC /* Run SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run SwiftLint";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
 		};
 		DFD39DC490E5DD13999DAAC0 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
