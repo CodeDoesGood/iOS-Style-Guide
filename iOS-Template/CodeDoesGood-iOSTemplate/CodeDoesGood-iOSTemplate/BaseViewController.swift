@@ -7,12 +7,14 @@
 //
 
 import UIKit
+import Keys
 
 class BaseViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        let keys = CodeDoesGoodIOSTemplateKeys()
+        print(keys.networkAPIToken)
     }
 
     func dismissKeyboardWhenTapped() {
