@@ -13,6 +13,11 @@ target 'CodeDoesGood-iOSTemplate' do
   pod 'Reusable'
   pod 'ReachabilitySwift', '~> 3'
 
+  plugin 'cocoapods-keys', {
+    :project => "CodeDoesGood-iOSTemplate",
+    :keys => [
+    "NetworkAPIToken"
+  ]}
 
   target 'CodeDoesGood-iOSTemplateTests' do
     inherit! :search_paths
