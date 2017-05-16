@@ -2,9 +2,14 @@ language: objective-c
 
 osx_image: xcode8.3
 
-before_script:
-  - cd iOS-Template/CodeDoesGood-iOSTemplate && gem install cocoapods-keys && pod install
-  - bundle exec pod keys set NetworkAPIToken $NETWORKAPITOKEN
+cache:
+- bundler
+- cocoapods
+before_install:
+- cd iOS-Template/CodeDoesGood-iOSTemplate
+- bundle install
+- bundle exec pod keys set NetworkAPIToken $NETWORKAPITOKEN 
+- pod repo update
 
 script:
   - xcodebuild -version
