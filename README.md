@@ -11,6 +11,7 @@ There are additional things covered by Ray Wenderlich's [Swift Style Guide](http
 [Optionals](#optionals)   
 [Switches and Enumerating](#switches-and-enumerating)   
 [Miscellaneous Project Specific](#miscellaneous-project-specific)   
+[Continuous Integration](#continuous-integration)
 
 ## Lead Mentors
 (please delete this section when you copy the style guide into your project)  
@@ -179,3 +180,11 @@ return 0
 - Use shadow naming when unwrapping optionals
 - Use `for-in` loops instead of `forEach`
 - Opening braces should be on the same line as the function
+
+
+## Continuous Integration
+First we need to install the [Cocoapods Keys](https://github.com/orta/cocoapods-keys)
+```
+$ gem install cocoapods-keys
+```
+
