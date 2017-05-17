@@ -5,12 +5,13 @@ osx_image: xcode8.3
 cache:
 - bundler
 - cocoapods
+
 before_install:
 - cd iOS-Template/CodeDoesGood-iOSTemplate
-- bundle install
+- gem install cocoapods-keys
 - bundle exec pod keys set NetworkAPIToken $NETWORKAPITOKEN 
 - pod repo update
 
 script:
-  - xcodebuild -version
-  - xcodebuild -workspace CodeDoesGood-iOSTemplate.xcworkspace -scheme 'CodeDoesGood-iOSTemplate' -sdk iphonesimulator -destination "platform=iOS Simulator,name=iPhone 7" test
+- xcodebuild -version
+- xcodebuild -workspace CodeDoesGood-iOSTemplate.xcworkspace -scheme 'CodeDoesGood-iOSTemplate' -sdk iphonesimulator -destination "platform=iOS Simulator,name=iPhone 7" test
