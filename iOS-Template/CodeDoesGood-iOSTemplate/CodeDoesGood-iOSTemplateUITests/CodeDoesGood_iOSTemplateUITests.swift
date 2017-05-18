@@ -8,7 +8,7 @@
 
 import XCTest
 
-class CodeDoesGood_iOSTemplateUITests: XCTestCase {
+class CodeDoesGoodiOSTemplateUITests: XCTestCase {
         
     override func setUp() {
         super.setUp()
