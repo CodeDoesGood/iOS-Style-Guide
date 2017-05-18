@@ -198,7 +198,7 @@ import Keys
 let keys = CodeDoesGoodIOSTemplateKeys()
 print(keys.networkAPIToken)
 ```
-For the CI we gonna use [Travis](https://travis-ci.org/) with is free for open source codes. Travis can integrate with Cocoapods Keys through environment variables, see the [docs](https://docs.travis-ci.com/user/environment-variables/) how to configure.  
+For the CI we gonna use [Travis](https://travis-ci.org/) with is free for open source codes. Travis can integrate with Cocoapods Keys through environment variables, see the [docs](https://docs.travis-ci.com/user/environment-variables/) how to configure. Don't panic, here is a [raywenderlich](https://www.raywenderlich.com/109418/travis-ci-tutorial) tutorial.
 
 All other files needed like `.travis.yml`, `Gemfile` are exemplified in this repository.
 
