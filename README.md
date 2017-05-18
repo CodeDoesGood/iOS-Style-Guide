@@ -183,8 +183,24 @@ return 0
 
 
 ## Continuous Integration
-First we need to install the [Cocoapods Keys](https://github.com/orta/cocoapods-keys)
+This section is about the CI and how to secure keys usage with Cocoapods Keys. First, we need to install the [Cocoapods Keys](https://github.com/orta/cocoapods-keys) 
 ```
 $ gem install cocoapods-keys
 ```
+Them we set the keys, for more commands see the Cocopods Keys github page.
+```
+$ pod keys set "NetworkAPIToken" "testkey"
+```
+The Cocoapods Keys will create a class like a pod with the key, we just need to import and use, like:
+```
+import Keys
+
+let keys = CodeDoesGoodIOSTemplateKeys()
+print(keys.networkAPIToken)
+```
+For the CI we gonna use [Travis](https://travis-ci.org/) with is free for open source codes. Travis can integrate with Cocoapods Keys through environment variables, see the [docs](https://docs.travis-ci.com/user/environment-variables/) how to configure.  
+
+All other files needed like `.travis.yml`, `Gemfile` are exemplified in this repository.
+
+
 
