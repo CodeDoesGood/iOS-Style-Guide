@@ -11,6 +11,7 @@ There are additional things covered by Ray Wenderlich's [Swift Style Guide](http
 [Optionals](#optionals)   
 [Switches and Enumerating](#switches-and-enumerating)   
 [Miscellaneous Project Specific](#miscellaneous-project-specific)   
+[Continuous Integration](#continuous-integration)
 
 ## Lead Mentors
 (please delete this section when you copy the style guide into your project)  
@@ -179,3 +180,27 @@ return 0
 - Use shadow naming when unwrapping optionals
 - Use `for-in` loops instead of `forEach`
 - Opening braces should be on the same line as the function
+
+
+## Continuous Integration
+This section is about the CI and how to secure keys usage with Cocoapods Keys. First, we need to install the [Cocoapods Keys](https://github.com/orta/cocoapods-keys) 
+```
+$ gem install cocoapods-keys
+```
+Them we set the keys, for more commands see the Cocopods Keys github page.
+```
+$ pod keys set "NetworkAPIToken" "testkey"
+```
+The Cocoapods Keys will create a class like a pod with the key, we just need to import and use, like:
+```
+import Keys
+
+let keys = CodeDoesGoodIOSTemplateKeys()
+print(keys.networkAPIToken)
+```
+For the CI we gonna use [Travis](https://travis-ci.org/) with is free for open source codes. Travis can integrate with Cocoapods Keys through environment variables, see the [docs](https://docs.travis-ci.com/user/environment-variables/) how to configure. Don't panic, here is a [raywenderlich](https://www.raywenderlich.com/109418/travis-ci-tutorial) tutorial.
+
+All other files needed like `.travis.yml`, `Gemfile` are exemplified in this repository.
+
+
+

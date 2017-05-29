@@ -9,6 +9,7 @@ PODS:
   - Crashlytics (3.8.3):
     - Fabric (~> 1.6.3)
   - Fabric (1.6.11)
+  - Keys (1.0.0)
   - ReachabilitySwift (3)
   - Reusable (3.0.1):
     - Reusable/Storyboard (= 3.0.1)
@@ -21,18 +22,24 @@ DEPENDENCIES:
   - CocoaLumberjack/Swift
   - Crashlytics
   - Fabric
+  - Keys (from `Pods/CocoaPodsKeys`)
   - ReachabilitySwift (~> 3)
   - Reusable
   - SwiftGen
+
+EXTERNAL SOURCES:
+  Keys:
+    :path: Pods/CocoaPodsKeys
 
 SPEC CHECKSUMS:
   CocoaLumberjack: c823149bccc5519a9447aeb433be7b1212a7d6a5
   Crashlytics: 2b6dbe138a42395577cfa73dfa1aa7248cadf39e
   Fabric: 5911403591946b8228ab1c51d98f1d7137e863c6
+  Keys: 9c35bf00f612ee1d48556f4a4b9b4551e224e90f
   ReachabilitySwift: f5b9bb30a0777fac8f09ce8b067e32faeb29bb64
   Reusable: 5362d10271ca8316b104698a21e90498f47e8339
   SwiftGen: d29fd8b7aa52092411d415fb09d0abd3d79ea1a5
 
-PODFILE CHECKSUM: 2b54caadb81df0f4175b20fda4a1c8efaf624f24
+PODFILE CHECKSUM: 1b0619ec3138184f5e164ed4e4668e7828477fbb
 
-COCOAPODS: 1.1.1
+COCOAPODS: 1.2.1.beta.1

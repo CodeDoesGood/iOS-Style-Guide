@@ -9,7 +9,7 @@
 import XCTest
 @testable import CodeDoesGood_iOSTemplate
 
-class CodeDoesGood_iOSTemplateTests: XCTestCase {
+class CodeDoesGoodiOSTemplateTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

@@ -2,8 +2,15 @@ language: objective-c
 
 osx_image: xcode8.3
 
-before_script: cd iOS-Template/CodeDoesGood-iOSTemplate && pod install
+cache:
+- bundler
+- cocoapods
+
+before_install:
+- bundle install
+- cd iOS-Template/CodeDoesGood-iOSTemplate
+- bundle exec pod keys set NetworkAPIToken $NETWORKAPITOKEN 
 
 script:
-  - xcodebuild -version
-  - xcodebuild -workspace CodeDoesGood-iOSTemplate.xcworkspace -scheme 'CodeDoesGood-iOSTemplate' -sdk iphonesimulator -destination "platform=iOS Simulator,name=iPhone 7" test
+- xcodebuild -version
+- xcodebuild -workspace CodeDoesGood-iOSTemplate.xcworkspace -scheme 'CodeDoesGood-iOSTemplate' -sdk iphonesimulator -destination "platform=iOS Simulator,name=iPhone 7" test
