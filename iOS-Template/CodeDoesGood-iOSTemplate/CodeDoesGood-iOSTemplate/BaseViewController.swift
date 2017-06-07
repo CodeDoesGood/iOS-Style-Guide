@@ -22,10 +22,8 @@ class BaseViewController: UIViewController {
         tap.cancelsTouchesInView = false
         view.addGestureRecognizer(tap)
     }
-    
+
     @objc private func hideKeyboard() {
         view.endEditing(true)
     }
 }
-
-

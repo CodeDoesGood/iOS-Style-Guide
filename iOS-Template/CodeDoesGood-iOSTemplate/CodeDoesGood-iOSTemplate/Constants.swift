@@ -10,28 +10,28 @@ import Foundation
 
 struct Constants {
     struct BaseViewController {
-        var title : String?
-        var infoLabel : String?
+        var title: String?
+        var infoLabel: String?
     }
-    
+
     struct Global {
         var title = "CodeDoesGood"
         var error = "Error"
-        
+
     }
-    
+
     struct Alerts {
         var cancel = "Cancel"
-        var ok = "Okay"
+        var okay = "Okay"
         var thanks = "Thank you!"
-        var message : String?
-        var feedback : String?
-        
+        var message: String?
+        var feedback: String?
+
         init() {
-            
+
         }
-        
-        init(message : String, feedback : String) {
+
+        init(message: String, feedback: String) {
             self.message = message
             self.feedback = feedback
         }
