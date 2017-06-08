@@ -8,8 +8,7 @@ cache:
 
 before_install:
 - bundle install
-- cd iOS-Template/CodeDoesGood-iOSTemplate
 
 script:
 - xcodebuild -version
-- bundle exec danger --dangerfile=/Users/travis/build/vitalii-tym/iOS-Template/iOS-Template/CodeDoesGood-iOSTemplate/
+- bundle exec danger --dangerfile=iOS-Template/CodeDoesGood-iOSTemplate/Dangerfile
