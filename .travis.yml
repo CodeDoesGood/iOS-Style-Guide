@@ -7,7 +7,6 @@ cache:
 - cocoapods
 
 before_install:
-- bundle install
 - cd iOS-Template/CodeDoesGood-iOSTemplate
 
 script:
