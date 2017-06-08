@@ -13,4 +13,3 @@ before_install:
 script:
 - xcodebuild -version
 - xcodebuild -workspace CodeDoesGood-iOSTemplate.xcworkspace -scheme 'CodeDoesGood-iOSTemplate' -sdk iphonesimulator -destination "platform=iOS Simulator,name=iPhone 7" test
-- bundle exec danger
