@@ -8,10 +8,10 @@ cache:
 
 before_install:
 - xcodebuild -version
-- bundle exec pod keys set NetworkAPIToken $NETWORKAPITOKEN
 - cd iOS-Template/CodeDoesGood-iOSTemplate
 
 script:
+- bundle exec pod keys set NetworkAPIToken $NETWORKAPITOKEN
 - xcodebuild -workspace CodeDoesGood-iOSTemplate.xcworkspace -scheme 'CodeDoesGood-iOSTemplate' -sdk iphonesimulator -destination "platform=iOS Simulator,name=iPhone 7" test
 - cd ../..
 - bundle exec danger --dangerfile=iOS-Template/CodeDoesGood-iOSTemplate/Dangerfile
