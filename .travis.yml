@@ -7,6 +7,7 @@ cache:
 - cocoapods
 
 before_install:
+- bundle install
 - cd iOS-Template/CodeDoesGood-iOSTemplate
 - bundle exec pod keys set NetworkAPIToken $NETWORKAPITOKEN
 
