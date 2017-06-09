@@ -10,6 +10,8 @@ before_install:
 - bundle install
 
 script:
+- cd iOS-Template/CodeDoesGood-iOSTemplate
 - xcodebuild -version
-- xcodebuild -workspace iOS-Template/CodeDoesGood-iOSTemplate/CodeDoesGood-iOSTemplate.xcworkspace -scheme 'CodeDoesGood-iOSTemplate' -sdk iphonesimulator -destination "platform=iOS Simulator,name=iPhone 7" test
+- xcodebuild -workspace CodeDoesGood-iOSTemplate.xcworkspace -scheme 'CodeDoesGood-iOSTemplate' -sdk iphonesimulator -destination "platform=iOS Simulator,name=iPhone 7" test
+- cd ../..
 - bundle exec danger --dangerfile=iOS-Template/CodeDoesGood-iOSTemplate/Dangerfile
