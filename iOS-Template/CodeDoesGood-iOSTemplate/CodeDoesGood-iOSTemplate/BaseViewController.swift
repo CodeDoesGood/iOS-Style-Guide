@@ -17,7 +17,6 @@ class BaseViewController: UIViewController {
         print(keys.networkAPIToken)
     }
 
-    
     func dismissKeyboardWhenTapped() {
         let tap = UIGestureRecognizer(target: self, action: #selector(hideKeyboard))
         tap.cancelsTouchesInView = false
