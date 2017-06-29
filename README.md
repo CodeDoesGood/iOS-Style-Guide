@@ -54,7 +54,7 @@ Please do not leave code commented out without adding a `TODO://` statement whic
 \* If you are working on an API that will be consumed by other projects or turned into a framework/library, additional documentation will be required. Your Lead Mentor will adjust this style guide in that scenario with more information specific to your project. Lead Mentors please delete this line when creating your project style guide.
 
 ## Empty Lines and Line Breaks
-Emtpy lines are used to help with encapsulation and readability.
+Empty lines are used to help with encapsulation and readability.
 
 - Last line of a file
 - Please set your Xcode to use spaces and not tabs, use 4 spaces. If your Xcode is set this way you will be able to use the tab button to "tab" 4 spaces.
