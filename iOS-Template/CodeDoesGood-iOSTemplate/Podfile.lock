@@ -1,22 +1,18 @@
 PODS:
-  - CocoaLumberjack/Core (3.0.0)
-  - CocoaLumberjack/Default (3.0.0):
-    - CocoaLumberjack/Core
-  - CocoaLumberjack/Extensions (3.0.0):
+  - CocoaLumberjack/Default (3.1.0)
+  - CocoaLumberjack/Swift (3.1.0):
     - CocoaLumberjack/Default
-  - CocoaLumberjack/Swift (3.0.0):
-    - CocoaLumberjack/Extensions
-  - Crashlytics (3.8.3):
+  - Crashlytics (3.8.4):
     - Fabric (~> 1.6.3)
   - Fabric (1.6.11)
   - Keys (1.0.0)
   - ReachabilitySwift (3)
-  - Reusable (3.0.1):
-    - Reusable/Storyboard (= 3.0.1)
-    - Reusable/View (= 3.0.1)
-  - Reusable/Storyboard (3.0.1)
-  - Reusable/View (3.0.1)
-  - SwiftGen (4.1.0)
+  - Reusable (4.0.0):
+    - Reusable/Storyboard (= 4.0.0)
+    - Reusable/View (= 4.0.0)
+  - Reusable/Storyboard (4.0.0)
+  - Reusable/View (4.0.0)
+  - SwiftGen (4.2.0)
 
 DEPENDENCIES:
   - CocoaLumberjack/Swift
@@ -32,14 +28,14 @@ EXTERNAL SOURCES:
     :path: Pods/CocoaPodsKeys
 
 SPEC CHECKSUMS:
-  CocoaLumberjack: c823149bccc5519a9447aeb433be7b1212a7d6a5
-  Crashlytics: 2b6dbe138a42395577cfa73dfa1aa7248cadf39e
+  CocoaLumberjack: 8311463ddf9ee86a06ef92a071dd656c89244500
+  Crashlytics: 79e236942ca1e7fc641df1feb9a275360a78ab6a
   Fabric: 5911403591946b8228ab1c51d98f1d7137e863c6
   Keys: 9c35bf00f612ee1d48556f4a4b9b4551e224e90f
   ReachabilitySwift: f5b9bb30a0777fac8f09ce8b067e32faeb29bb64
-  Reusable: 5362d10271ca8316b104698a21e90498f47e8339
-  SwiftGen: d29fd8b7aa52092411d415fb09d0abd3d79ea1a5
+  Reusable: 98e5fff1e0e2e00872199699b276dde08ee56c07
+  SwiftGen: b6bfed151243348e4603b91bf5bc4eb2486c9d5b
 
 PODFILE CHECKSUM: 1b0619ec3138184f5e164ed4e4668e7828477fbb
 
-COCOAPODS: 1.2.1.beta.1
+COCOAPODS: 1.2.0
